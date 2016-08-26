@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "948f3780ab28245ac8f7"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "e38867348e90b628bb86"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -35255,26 +35255,33 @@
 	                        )
 	                    ),
 	                    _react2.default.createElement(
-	                        'nav',
-	                        { className: 'navbar navbar-default' },
+	                        'div',
+	                        { className: 'footer' },
 	                        _react2.default.createElement(
-	                            'div',
-	                            { className: 'container' },
+	                            'footer',
+	                            null,
 	                            _react2.default.createElement(
-	                                'div',
-	                                { className: 'navbar-header' },
+	                                'nav',
+	                                { className: 'navbar navbar-default navbar-fixed-bottom' },
 	                                _react2.default.createElement(
-	                                    'p',
-	                                    { className: 'navbar-text' },
-	                                    '2016, ',
+	                                    'div',
+	                                    { className: 'container' },
 	                                    _react2.default.createElement(
-	                                        'a',
-	                                        { href: 'mailto:test@test.net' },
-	                                        'Globullo'
-	                                    ),
-	                                    '.'
-	                                ),
-	                                _react2.default.createElement('p', null)
+	                                        'div',
+	                                        { className: 'navbar-header' },
+	                                        _react2.default.createElement(
+	                                            'span',
+	                                            { className: 'navbar-text margin-15' },
+	                                            '2016, ',
+	                                            _react2.default.createElement(
+	                                                'a',
+	                                                { href: 'mailto:test@test.net' },
+	                                                'Globullo'
+	                                            ),
+	                                            '.'
+	                                        )
+	                                    )
+	                                )
 	                            )
 	                        )
 	                    )

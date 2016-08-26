@@ -59,17 +59,20 @@ class App extends Component {
                             }
                         </div>
                     </div>
-
-                    <nav className="navbar navbar-default">
-                        <div className="container">
-                            <div className="navbar-header">
-                                <p className="navbar-text">
-                                    2016, <a href="mailto:test@test.net">Globullo</a>.
-                                </p>
-                                <p></p>
-                            </div>
-                        </div>
-                    </nav>
+					
+					<div className="footer">
+					<footer>
+						<nav className="navbar navbar-default navbar-fixed-bottom">
+							<div className="container">
+								<div className="navbar-header">
+									<span className="navbar-text margin-15">
+										2016, <a href="mailto:test@test.net">Globullo</a>.
+									</span>
+								</div>
+							</div>
+						</nav>
+					</footer>
+					</div>
 
                 </div>
 
