@@ -1,0 +1,29 @@
+.projects {
+    padding-top:0px;
+    padding-bottom:20px;
+    border: 0px solid black;
+    /*box-shadow: 0 3px 0 0 #fafafa;*/
+    /*margin-bottom: 2em;*/
+
+}
+
+.project-margin-between{
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.project-margin-left{
+    margin-left: 20px;
+}
+
+.project {
+    border: 0px solid red;
+    box-shadow: 0 3px 0 0 rgb(242, 242, 242);
+    margin-bottom: 2em;
+}
+
+.img-android-badge{
+    height: 67px;
+    margin: 0 auto;
+    width: 170px;
+}
